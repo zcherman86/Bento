@@ -17,10 +17,10 @@ const CONFIG = {
 	twelveHourFormat: false,
 
 	// Greetings
-	greetingMorning: 'Good morning!',
-	greetingAfternoon: 'Good afternoon,',
-	greetingEvening: 'Good evening,',
-	greetingNight: 'Go to Sleep!',
+	greetingMorning: 'God Morgon!',
+	greetingAfternoon: 'Hej snygging,',
+	greetingEvening: 'God Kväll,',
+	greetingNight: 'Gå och lägg dig för fan',
 
 	// Layout
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
@@ -53,39 +53,39 @@ const CONFIG = {
 	firstButtonsContainer: [
 		{
 			id: '1',
-			name: 'Github',
-			icon: 'github',
-			link: 'https://github.com/',
+			name: 'unixporn',
+			icon: 'glasses',
+			link: 'https://www.reddit.com/r/unixporn/',
 		},
 		{
 			id: '2',
-			name: 'Mail',
-			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
+			name: 'gmail',
+			icon: 'gmail',
+			link: 'https://mail.google.com/mail/u/0/#inbox',
 		},
 		{
 			id: '3',
-			name: 'Todoist',
-			icon: 'trello',
-			link: 'https://todoist.com',
+			name: 'wallhaven',
+			icon: 'wallhaven',
+			link: 'https://wallhaven.cc/',
 		},
 		{
 			id: '4',
-			name: 'Calendar',
-			icon: 'calendar',
-			link: 'https://calendar.google.com/calendar/r',
+			name: 'wallpapers-clan',
+			icon: 'wallpapers-clan',
+			link: 'https://wallpapers-clan.com/desktop-wallpapers/',
 		},
 		{
 			id: '5',
-			name: 'Reddit',
+			name: 'alphacoders',
 			icon: 'glasses',
-			link: 'https://reddit.com',
+			link: 'https://alphacoders.com/',
 		},
 		{
 			id: '6',
-			name: 'Odysee',
-			icon: 'youtube',
-			link: 'https://odysee.com/',
+			name: 'github',
+			icon: 'github',
+			link: 'https://github.com/',
 		},
 	],
 
@@ -98,15 +98,15 @@ const CONFIG = {
 		},
 		{
 			id: '2',
-			name: 'twitter',
-			icon: 'twitter',
-			link: 'https://twitter.com/',
+			name: 'Keep',
+			icon: 'Keep',
+			link: 'https://keep.google.com/',
 		},
 		{
 			id: '3',
-			name: 'bot',
-			icon: 'bot',
-			link: 'https://discord.com/app',
+			name: 'youtube',
+			icon: 'youtube',
+			link: 'https://www.youtube.com/',
 		},
 		{
 			id: '4',
