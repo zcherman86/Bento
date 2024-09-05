@@ -85,7 +85,7 @@ const CONFIG = {
 		{
 			id: '6',
 			name: 'Keep',
-			icon: 'keep',
+			icon: 'pen-tool',
 			link: 'https://keep.google.com/',
 		},
 	],
