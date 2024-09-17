@@ -6,7 +6,7 @@
 
 /* V A R I A B L E S */
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap'); /* Font Import */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@600;600;700&display=swap'); /* Font Import */
 
 :root {
   /* Font Size */
@@ -17,13 +17,13 @@
   --icon: 3vh; /* Icon Size */
 
   /* Fonts Color */
-  --fg: #ebdbb2; /* Foreground color */
+  --fg: #3a3a3a; /* Foreground color */
   --sfg: #494949; /* Sceondary Foreground color */
 
   /* Light Colors  */
-  --accent: #ebdbb2; /* Hover color */
-  --background: #1E2122; /* Background color */
-  --cards: #202020; /* Cards color */
+  --accent: #57a0d9; /* Hover color */
+  --background: #f5f5f5; /* Background color */
+  --cards: #e4e6e6; /* Cards color */
 
   /* Image background  */
   --imgbg: url(assets/background.jpg); /* Image URL */
@@ -35,13 +35,13 @@
 
 .darktheme {
   /* Dark Colors  */
-  --accent: #c6a0f6; /* Hover color */
-  --background: #1E2030; /* Background color */ 
-  --cards: #24273a; /* Cards color */
+  --accent: #737994; /* Hover color */
+  --background: #1E2030; /* Background color */
+  --cards: #181926; /* Cards color */
 
   /* Fonts Color */
-  --fg: #d8dee9; /* Foreground color */
-  --sfg: #2c292e; /* Secondary Foreground color */
+  --fg: #b8bfe5; /* Foreground color */
+  --sfg: #b8bfe5; /* Secondary Foreground color */
 
   /* Image background  */
   --imgcol: linear-gradient(
@@ -56,7 +56,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'JetBrains Mono', sans-serif;
   transition: 0.2s ease-in-out;
 }
 
@@ -155,16 +155,13 @@ body {
   justify-content: center;
 }
 
-#hour,
-#separator,
-#minutes {
+#time {
   font-size: var(--fg-primary);
   font-weight: bolder;
   color: var(--fg);
 }
 
-#month,
-#day {
+#date {
   font-size: var(--fg-date);
   font-weight: bold;
   color: var(--fg);
