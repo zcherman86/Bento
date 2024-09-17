@@ -23,7 +23,7 @@ const CONFIG = {
 	greetingNight: 'Gå och lägg dig för fan',
 
 	// Layout
-	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
+	bentoLayout: 'lists', // 'bento', 'lists', 'buttons'
 
 	// Weather
 	weatherKey: 'f3573d9fdce4a9b597c16003eb792b39', // Write here your API Key
@@ -34,7 +34,7 @@ const CONFIG = {
 	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
 	defaultLatitude: '57.655',
 	defaultLongitude: '12.499',
-
+	
 	// Autochange
 	autoChangeTheme: false,
 
@@ -136,46 +136,46 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'music',
+			icon: 'star',
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'z0mbi3 dots',
+					link: 'https://github.com/gh0stzk/dotfiles',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Arch Linux',
+					link: 'https://archlinux.org/',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'ChatGPT',
+					link: 'https://chat.openai.com/',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'MonkeyType',
+					link: 'https://monkeytype.com/',
 				},
 			],
 		},
 		{
-			icon: 'coffee',
+			icon: 'tv',
 			id: '2',
 			links: [
 				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
+					name: 'YouTube',
+					link: 'https://www.youtube.com',
 				},
 				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
+					name: 'Netflix',
+					link: 'https://www.netflix.com',
 				},
 				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
+					name: 'Twitch',
+					link: 'https://www.twitch.tv',
 				},
 				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
+					name: 'Amazon Prime',
+					link: 'https://www.primevideo.com',
 				},
 			],
 		},
@@ -184,7 +184,7 @@ const CONFIG = {
 	// Second Links Container
 	secondListsContainer: [
 		{
-			icon: 'binary',
+			icon: 'square-user-round',
 			id: '1',
 			links: [
 				{
@@ -192,26 +192,26 @@ const CONFIG = {
 					link: 'https://www.spotify.com',
 				},
 				{
-					name: 'Reddit',
-					link: 'https://www.reddit.com',
+					name: 'r/unixporn',
+					link: 'https://www.reddit.com/r/unixporn',
 				},
 				{
-					name: 'Hashnode',
-					link: 'https://www.hashnode.com',
+					name: 'Facebook',
+					link: 'https://www.facebook.com',
 				},
 				{
-					name: 'Pocket',
-					link: 'https://www.pocket.com',
+					name: 'Twitter',
+					link: 'https://twitter.com',
 				},
 			],
 		},
 		{
-			icon: 'github',
+			icon: 'binary',
 			id: '2',
 			links: [
 				{
-					name: 'Front',
-					link: 'https://www.reddit.com/r/Frontend/',
+					name: 'Programming',
+					link: 'https://www.reddit.com/r/programming/',
 				},
 				{
 					name: 'Rust',
@@ -222,8 +222,8 @@ const CONFIG = {
 					link: 'https://www.reddit.com/r/golang/',
 				},
 				{
-					name: 'Repos',
-					link: 'https://github.com/migueravila',
+					name: 'Python',
+					link: 'https://www.reddit.com/r/Python/',
 				},
 			],
 		},
