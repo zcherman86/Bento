@@ -89,7 +89,7 @@ const CONFIG = {
 			link: 'https://keep.google.com/',
 		},
 	],
-
+	
 	secondButtonsContainer: [
 		{
 			id: '1',
